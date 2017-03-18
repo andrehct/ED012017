@@ -3,7 +3,7 @@
 
 float media (int *valores, int n);
 float res=0;
-int i=0,n=0;
+int i,n;
 
 int main()
 {
