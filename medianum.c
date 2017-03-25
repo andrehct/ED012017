@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -21,9 +22,15 @@ int main()
     media (valores, n);
 
     printf("\n A media dos valores e: %.2f", res);
+<<<<<<< HEAD
 
     free(valores);
 
+=======
+    
+    free(valores);
+    
+>>>>>>> 5ac71a236ca26d1eba4d75d99439e026bba26271
     return 0;
 }
 
