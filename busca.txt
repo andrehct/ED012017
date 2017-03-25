@@ -1,0 +1,9 @@
+tipo busca (tipo *v, tipo e, tipo tam)
+{
+   para i de 0 ate tam-1
+     se 'e' for igual a v[i]
+     retorne i
+   fim para
+
+   retorne tam // se o valor retornado for o mesmo de 'tam' significa que o elemento nao foi encontrado no vetor.
+}

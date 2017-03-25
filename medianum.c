@@ -22,6 +22,8 @@ int main()
 
     printf("\n A media dos valores e: %.2f", res);
 
+    free(valores);
+
     return 0;
 }
 
