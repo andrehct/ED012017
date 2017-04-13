@@ -10,9 +10,8 @@ typedef struct LISTA
 lista *inicio;
 lista *prox;
 lista *aux;
-int i=0;
 
-void insere (int e, int i);
+void insere (int e);
 void remover (int e);
 int busca (int e);
 void imprime ();
@@ -46,8 +45,7 @@ int main()
               case 1:
                   printf("Insira um valor: ");
                   scanf("%d", &x);
-                  insere(x,i);
-                  i++;
+                  insere(x);
                   printf("\nPressione qualquer tecla para voltar ao menu");
                   getchar();
                   getchar();
@@ -97,7 +95,7 @@ int main()
     return 0;
 }
 
-void insere(int e, int i)
+void insere(int e)
 {
     if(inicio == NULL)
     {
