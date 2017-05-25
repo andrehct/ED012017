@@ -1,3 +1,8 @@
+/*Universidade de Brasilia
+  Andre Heladio de Carvalho Thomas
+  160112036
+  Estrutura de Dados*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
